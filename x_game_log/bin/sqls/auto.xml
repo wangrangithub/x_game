@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE sqlMap PUBLIC "-//iBATIS.com//DTD SQL Map 2.0//EN" "http://www.ibatis.com/dtd/sql-map-2.dtd">
+<sqlMap>
+
+<statement id="createTable_Mytestlog" parameterClass="java.lang.String">
+create table if not exists `$splitTableName$` ( 
+`id` bigint not null auto_increment, 
+`logTime` bigint, 
+`accountId` bigint, 
+`accountName` varchar( 64 ), 
+`openId` varchar( 64 ), 
+`charName` varchar( 64 ), 
+`allianceId` int, 
+`param` varchar( 4096 ), 
+`vipLevel` int, 
+`charId` bigint, 
+`reason` text default null, 
+`level` int, 
+`vocationTypeId` tinyint default 0, 
+`addEvo` int, 
+primary key ( `ID` ) 
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+</statement>
+
+<statement id="insertInto_Mytestlog" parameterClass="com.game.logserver.logobjs.Mytestlog">
+insert into `$splitTableName$` ( 
+`logTime`, 
+`accountId`, 
+`accountName`, 
+`openId`, 
+`charName`, 
+`allianceId`, 
+`param`, 
+`vipLevel`, 
+`charId`, 
+`reason`, 
+`level`, 
+`vocationTypeId`, 
+`addEvo`
+) values ( 
+#logTime#, 
+#accountId#, 
+#accountName#, 
+#openId#, 
+#charName#, 
+#allianceId#, 
+#param#, 
+#vipLevel#, 
+#charId#, 
+#reason#, 
+#level#, 
+#vocationTypeId#, 
+#addEvo#
+);
+</statement>
+
+<insert id="insertInto_MytestlogList" parameterClass="java.util.HashMap">
+ insert into `$splitTableName$` ( 
+`logTime`, 
+`accountId`, 
+`accountName`, 
+`openId`, 
+`charName`, 
+`allianceId`, 
+`param`, 
+`vipLevel`, 
+`charId`, 
+`reason`, 
+`level`, 
+`vocationTypeId`, 
+`addEvo`
+) values  
+<iterate property="values"  conjunction=",">  <![CDATA[ (  
+'$values[].logTime$', 
+'$values[].accountId$', 
+'$values[].accountName$', 
+'$values[].openId$', 
+'$values[].charName$', 
+'$values[].allianceId$', 
+'$values[].param$', 
+'$values[].vipLevel$', 
+'$values[].charId$', 
+'$values[].reason$', 
+'$values[].level$', 
+'$values[].vocationTypeId$', 
+'$values[].addEvo$'
+ )]]>   
+</iterate>
+</insert>
+
+</sqlMap>
