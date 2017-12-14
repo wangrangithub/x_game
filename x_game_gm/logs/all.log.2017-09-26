@@ -1,0 +1,97 @@
+[17/09/26 11:33:28,731] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:33:29,169] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:33:29,182] [ERROR] Spider$1.run --> process request Request{url='http://forex.hexun.com/rmbhl/?frommarket=baidurate', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.game.controller.spider.AbstractSpider.process(AbstractSpider.java:75)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[17/09/26 11:33:29,184] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:33:59,297] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:33:59,599] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:38:02,625] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:38:03,018] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:38:03,024] [ERROR] Spider$1.run --> process request Request{url='http://forex.hexun.com/rmbhl/?frommarket=baidurate', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.game.controller.spider.AbstractSpider.process(AbstractSpider.java:75)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[17/09/26 11:38:03,025] [WARN] HttpClientDownloader.download --> download page 1 error
+[17/09/26 11:38:04,027] [INFO] Spider.run --> Spider forex.hexun.com closed! 2 pages downloaded.
+[17/09/26 11:38:22,691] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:38:23,007] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:39:27,175] [ERROR] Spider$1.run --> process request Request{url='http://forex.hexun.com/rmbhl/?frommarket=baidurate', method='null', extras=null, priority=0, headers={}, cookies={}} error
+java.lang.ArrayIndexOutOfBoundsException: 1
+	at com.game.controller.spider.AbstractSpider.process(AbstractSpider.java:75)
+	at us.codecraft.webmagic.Spider.onDownloadSuccess(Spider.java:414)
+	at us.codecraft.webmagic.Spider.processRequest(Spider.java:406)
+	at us.codecraft.webmagic.Spider.access$000(Spider.java:61)
+	at us.codecraft.webmagic.Spider$1.run(Spider.java:320)
+	at us.codecraft.webmagic.thread.CountableThreadPool$1.run(CountableThreadPool.java:74)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[17/09/26 11:39:27,178] [WARN] HttpClientDownloader.download --> download page 1 error
+[17/09/26 11:39:28,180] [INFO] Spider.run --> Spider forex.hexun.com closed! 2 pages downloaded.
+[17/09/26 11:39:33,818] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:39:34,113] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:39:38,129] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:40:03,160] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:40:03,468] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:41:15,905] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:41:21,811] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:41:22,129] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:42:27,876] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:43:20,631] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:43:21,106] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:49:45,991] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:50:53,819] [ERROR] AbstractSpider.execute --> class %s run error %s 
+[17/09/26 11:51:49,150] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:51:49,586] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:55:26,418] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:56:14,741] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:56:15,099] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 11:57:49,330] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 11:57:56,992] [INFO] Spider.run --> Spider forex.hexun.com started!
+[17/09/26 11:57:57,289] [INFO] HttpClientDownloader.download --> downloading page success http://forex.hexun.com/rmbhl/?frommarket=baidurate
+[17/09/26 13:42:07,591] [INFO] Spider.run --> Spider forex.hexun.com closed! 1 pages downloaded.
+[17/09/26 14:07:09,714] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:07:10,306] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:11:11,248] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:11:11,779] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:12:39,038] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:13:52,721] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:13:53,244] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:13:54,400] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:15:31,847] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:15:32,361] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:16:02,499] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:16:31,931] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:16:32,457] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:16:32,594] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:18:46,036] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:18:46,490] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:18:47,657] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:19:26,068] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:19:26,531] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:19:27,688] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:20:53,547] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:20:53,978] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:20:55,142] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:22:27,067] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:22:27,590] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:22:28,770] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.
+[17/09/26 14:23:44,455] [INFO] Spider.run --> Spider huobiduihuan.51240.com started!
+[17/09/26 14:23:44,930] [INFO] HttpClientDownloader.download --> downloading page success https://huobiduihuan.51240.com/
+[17/09/26 14:23:46,110] [INFO] Spider.run --> Spider huobiduihuan.51240.com closed! 1 pages downloaded.

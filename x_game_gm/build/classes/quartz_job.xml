@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<job-scheduling-data
+	xmlns="http://www.quartz-scheduler.org/xml/JobSchedulingData"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.quartz-scheduler.org/xml/JobSchedulingData http://www.quartz-scheduler.org/xml/job_scheduling_data_2_1.xsd"
+	version="2.1">
+
+	<schedule>
+		<!-- 定时器demo-->
+	    <job>
+	    	<!-- 定义job名称 -->
+			<name>demoJob</name>
+			<!-- 定时器组 ,一个项目可以统一用一个-->					
+			<group>x-gm</group>			
+			<!-- 描述 -->
+			<description>定时器demo</description>
+			<!-- 定时器工作类的路径 -->
+			<job-class>com.game.controller.jobs.DemoJob</job-class>
+			<durability>false</durability>
+			<!-- 任务是否是恢复 -->
+			<recover>true</recover>
+		</job>
+		<trigger>
+			<cron>
+				<!-- 触发器名称 -->
+				<name>demoJobTrigger</name>
+				<!-- 定时器组 ,一个项目可以统一用一个-->			
+				<group>x-gm</group>
+				<!-- 定义job名称 -->	
+				<job-name>demoJob</job-name>
+				<job-group>x-gm</job-group>
+				<!-- 定时器触发模式 -->
+				<cron-expression>0/50 * * * * ?</cron-expression>
+			</cron>
+		</trigger>
+		
+		
+	</schedule>
+</job-scheduling-data>

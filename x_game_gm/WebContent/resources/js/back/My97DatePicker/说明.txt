@@ -1,0 +1,8 @@
+1、下载My97DatePicker4.8Beta3
+http://www.my97.net/dp/down/My97DatePickerBeta.7z
+2、页面中引入
+<script language="javascript" type="text/javascript" src="datepicker/WdatePicker.js"></script>
+
+3、Form中HTML代码
+<input name="createdatetimeStart" style="width: 120px;" onFocus="WdatePicker({readOnly:true,dateFmt:'yyyy-MM-dd HH:mm:ss'})" /> 至
+<input name="createdatetimeEnd" style="width:120px;" onFocus="WdatePicker({readOnly:true,dateFmt:'yyyy-MM-dd HH:mm:ss'})" /> 

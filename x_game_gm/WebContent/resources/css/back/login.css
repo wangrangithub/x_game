@@ -1,0 +1,40 @@
+*{margin:0px;padding:0px;}
+		body{font-size:14px;font-family: 宋体;}
+		.clear{clear: both;}
+
+		#wrap{width:1000px;margin:0px auto;}
+		#wrap .topbox{margin-top:20px;}
+		#wrap .topbox .logo{float:left;}
+		#wrap .topbox .welcome{float:left;margin-top:30px;margin-left:20px;font-size:18px;color:#BFBFBF;}
+		#wrap .centerbox{border:1px solid #ddd;padding:60px;margin-top:30px;}
+		#wrap .centerbox .leftbox{border-right:1px dashed #ddd;float:left;width:435px;}
+		#wrap .centerbox .loginbox{float:right;width:275px;padding:0px 80px;}
+		#wrap .bottombox{margin-top:40px;}
+
+		.bottombox .copyinfo{float:left;}
+		.bottombox .links{float:right;}
+		.bottombox .links ul{list-style:none;}
+		.bottombox .links ul li{float:left;}
+		.bottombox .links ul li a{text-decoration: none;color:#999;margin-left:15px;}
+
+		/*左侧*/
+		.leftbox .title{font-size:18px;color:#999;}
+		.leftbox .friends{margin-top:60px;}
+		.leftbox .friends .item{float:left;width:106px;height:100px;}
+		.leftbox .friends .item .image{width:60px;height:60px;background-image: url("../../images/icos.png");background-repeat: no-repeat;margin:0px auto;}
+		.leftbox .friends .item .text{text-align: center;margin-top:15px;color:#999;}
+		.leftbox .friends .item .qq{background-position: 0px 0px;}
+		.leftbox .friends .item .xinlang{background-position: 0px -185px;}
+		.leftbox .friends .item .weixin{background-position: 0px -123px;}
+		.leftbox .friends .item .baidu{background-position: 0px -60px;}
+
+		.loginbox .title{font-size:18px;color:#999;}
+		.loginbox .login{margin-top:30px;}
+		.loginbox .login .item{height:35px;width:250px;border:1px solid #ddd;margin-bottom:20px;}
+		.loginbox .login .item .img{width:35px;height:35px;float:left;background-image: url("../../images/icos.png");background-position: -349px 8px;background-repeat: no-repeat;border-right:1px solid #ddd;}
+		.loginbox .login .item .txt{height:35px;float:left;width:190px;border:none;padding:0px 16px 0px 8px;color:#999;}
+		.loginbox .login .item .img-pass{width:35px;height:35px;float:left;background-image: url("../../images/icos.png");background-position: -349px -49px;background-repeat: no-repeat;border-right:1px solid #ddd;}
+
+		.loginbox .login .item .btn{background-color: #008EF5;font-size:16px;color:white;border:none;width:100%;height:35px;}
+		.loginbox .login .item .waitbtn{background-color: #e73839;font-size:16px;color:white;border:none;width:100%;height:35px;}
+		.loginbox .login #loadingbox{display:none;}
